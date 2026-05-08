@@ -10,6 +10,8 @@ html {
 
 
 
+
+
 .navbar-logo {
     height: 80px;
     width: auto;
@@ -481,6 +483,16 @@ footer .text-center {
 }
 
 /* Contact Cards */
+.contact-details {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.contact-form-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
 .contact-card {
     background-color: #f5f5f5;
     border-radius: 12px;

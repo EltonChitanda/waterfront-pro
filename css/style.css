@@ -30,7 +30,8 @@ html {
 
 .navbar-nav .nav-link.active {
     color: #0096c7 !important;
-    border-bottom: 2px solid #0096c7;
+    border-bottom: 2px solid #0096c7 !important;
+    padding-bottom: 0.3rem !important;
 }
 
 .navbar {

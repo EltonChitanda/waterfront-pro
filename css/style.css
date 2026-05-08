@@ -379,7 +379,23 @@ footer .text-center {
 }
 
 .tagline-section {
-    background-color: lightgray;
+    background-color: #0096c7;
+}
+
+.tagline-inner {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.tagline-label {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-bottom: 1rem;
 }
 
 .tagline-text {
@@ -387,9 +403,13 @@ footer .text-center {
     font-weight: 700;
     font-style: italic;
     line-height: 1.6;
-    color: #2C1A0E;
-    max-width: 850px;
-    margin: 0 auto;
+    color: #ffffff;
+}
+
+@media (max-width: 991px) {
+    .tagline-text {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 991px) {

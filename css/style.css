@@ -138,14 +138,23 @@ footer .text-center {
 }
 
 .services-preview {
-    background-color: #f0f8ff;
+    background-color: #ffffff;
 }
 
 .services-heading {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 900;
     color: #111111;
-    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.services-subheading {
+    color: #666666;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 2rem;
 }
 
 .services-list {
@@ -154,14 +163,16 @@ footer .text-center {
 }
 
 .services-list li {
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 0.6rem 1rem;
     margin-bottom: 0.5rem;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     border-left: 4px solid #0096c7;
     border-radius: 6px;
     color: #111111;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .services-list li i {
@@ -188,13 +199,6 @@ footer .text-center {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn-services:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-
 .services-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,7 +207,7 @@ footer .text-center {
 
 .services-images img:first-child {
     grid-column: 1 / -1;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
     border-radius: 12px;
     width: 100%;
@@ -211,24 +215,21 @@ footer .text-center {
 
 .services-images img:nth-child(2),
 .services-images img:nth-child(3) {
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     border-radius: 12px;
     width: 100%;
 }
 
-.services-list li {
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-    margin-bottom: 0.5rem;
-    background-color: #ffffff;
-    border-left: 4px solid #0096c7;
-    border-radius: 6px;
-    color: #111111;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+@media (max-width: 991px) {
+    .services-images img:first-child {
+        height: 150px;
+    }
+
+    .services-images img:nth-child(2),
+    .services-images img:nth-child(3) {
+        height: 100px;
+    }
 }
 
 /* Floating WhatsApp Button */

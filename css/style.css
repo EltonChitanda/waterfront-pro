@@ -825,3 +825,13 @@ footer .text-center {
     max-width: 500px;
     border-radius: 12px;
 }
+
+@media (max-width: 991px) {
+    .coverage-section {
+        padding-bottom: 1.5rem !important;
+    }
+
+    .our-work-section {
+        padding-top: 1.5rem !important;
+    }
+}

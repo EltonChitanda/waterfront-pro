@@ -1,15 +1,15 @@
 // Active nav link
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 const currentPath = window.location.pathname;
 const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
 navLinks.forEach(link => {
     link.classList.remove('active');
-    const linkPage = link.getAttribute('href');
+    const linkPage = link.getAttribute('href').replace('.html', '');
+    
     if (
-        linkPage === currentPage ||
-        currentPath.endsWith(linkPage) ||
-        (currentPage === '' && linkPage === 'index.html')
+        currentPath === linkPage ||
+        currentPath === '/' && linkPage === 'index' ||
+        currentPath.endsWith(linkPage)
     ) {
         link.classList.add('active');
     }

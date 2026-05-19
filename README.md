@@ -2,7 +2,7 @@
 
 A fully responsive business website built for **Waterfront Pro (Pty) Ltd**, a construction and plumbing company based in Vaalwater, Limpopo. This was a freelance project built from scratch using HTML, CSS, JavaScript and Bootstrap 5.
 
-🌐 **Live Site:** [waterfront-pro.netlify.app](https://waterfront-pro.netlify.app)
+🌐 **Live Site:** [waterfront-pro.netlify.app](https://waterfrontpro.co.za)
 
 ---
 
